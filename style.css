@@ -37,6 +37,9 @@ nav {
     border-radius: 50%;
     margin: 0%;
 }
+.logo-image:hover{
+    box-shadow: 1px 1px 3px 3px black;
+}
 .logo-header {
     font-size: 24px;
     color: #f9faf8;
@@ -63,8 +66,8 @@ ul {
     color: #f9faf8;
 }
 .header:hover {
-    text-shadow: 1px 2px 5px rgba(205, 216, 215, 0.693);
-    font-size: 50px;
+    text-shadow: 1px 2px 10px rgba(205, 216, 215, 0.693);
+    font-weight: bolder;
 }
 .text {
     font-size: 18px;
@@ -83,7 +86,6 @@ ul {
 .desk:hover {
     border-radius: 6px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
 .button {
     background-color: #3882f6;
@@ -95,7 +97,11 @@ ul {
     font-weight: bolder;
     font-size: 17px;
 }
-
+.button:hover{
+    height: 33px;
+    width: 93px;
+    box-shadow: 1px 1px 3px 3px;
+}
 
 .middle {
     text-align: center;
@@ -104,6 +110,9 @@ h2 {
     font-size: 36px;
     font-weight: extra-bold;
     color: #1f2937;
+}
+h2:hover {
+    text-shadow: 2px 2px 10px;
 }
 .grids {
     font-size: 18px;
@@ -125,8 +134,10 @@ h2 {
     box-shadow: 1px 1px;
 }
 .containers:hover {
-    max-height: 250px;
-    box-shadow: 4px 1px 5px 1px rgb(17, 48, 48);
+    max-height: 255px;
+    width: 170px;
+    box-shadow: 4px 1px 6px 1px rgb(17, 48, 48);
+    transform: scale(1.1, 1.1);
 }
 .grid-figure {
     width: 150px;
