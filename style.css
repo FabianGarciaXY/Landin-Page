@@ -214,3 +214,11 @@ footer {
     text-align: center;
     padding: 30px 0;
 }
+
+a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #fff8dc;
+    text-shadow: #fff8dc;
+    font-weight: bold;
+}
