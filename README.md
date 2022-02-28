@@ -4,4 +4,4 @@ This is a landing page project from The Odin Project to develop a basic and comm
 It was only made with:
 * HTML & CSS
 
- The live preview is here **https://fabiangarciaxy.github.io/Landin_Page/**
+ The live preview is here **https://fabiangarciaxy.github.io/Landing_Page/**
