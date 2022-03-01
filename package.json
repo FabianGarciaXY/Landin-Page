@@ -1,0 +1,22 @@
+{
+  "name": "landing_page",
+  "version": "1.0.0",
+  "description": "This is a landing page project from The Odin Project to develop a basic and common home page for web site.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FabianGarciaXY/Landin-Page.git"
+  },
+  "author": "Fabyan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FabianGarciaXY/Landin-Page/issues"
+  },
+  "homepage": "https://github.com/FabianGarciaXY/Landin-Page#readme",
+  "devDependencies": {
+    "cypress": "^9.5.1"
+  }
+}
