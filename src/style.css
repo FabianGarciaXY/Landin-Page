@@ -5,13 +5,12 @@ body {
     flex-direction: column;
     font-size: 18px;
     color: #e5e7eb;
-
 }
 
 .top {
     background-color: #1f2937;
     color: #fff8dc;
-    padding: 0 150px;
+    padding: 10px 120px;
     margin: 0%;
 }
 nav {
@@ -21,6 +20,7 @@ nav {
     margin: 10px 0;
     padding: 0;
 }
+
 .logo-header:hover, li:hover {
     font-weight: bolder;
     color: #eaebaf;
@@ -68,6 +68,7 @@ ul {
     text-decoration: none;
     list-style-type: none;
     color: #eaebaf;
+    font-size: 20px;
 }
 
 .principal-container {
@@ -94,6 +95,7 @@ ul {
     margin: 0%;
 }
 .desk {
+    border-radius: 30px 0px 0px 0px;
     height: auto;
     width: 440px;
     margin: 0%;
@@ -121,6 +123,7 @@ ul {
 
 #middle {
     text-align: center;
+    background-image: linear-gradient(to bottom, #f2ebd0, #075b5b45);
 }
 h2 {
     font-size: 36px;
@@ -140,6 +143,7 @@ h2:hover {
     flex-wrap: wrap;
 }
 .containers {
+    position: relative;
     max-width: 150px;
     max-height: 230px;
     background-color: rgba(220, 208, 103, 0.371);
@@ -201,10 +205,9 @@ h2:hover {
 .sign-up-header {
     font-size: 24px;
     font-weight: bolder;
-}
-.sign-up-text {
-    font-size: 18px;
-    font-weight: normal;
+} .sign-up-text {
+        font-size: 18px;
+        font-weight: normal;
 }
 
 footer {
@@ -218,7 +221,42 @@ footer {
 a {
     list-style-type: none;
     text-decoration: none;
-    color: #fff8dc;
     text-shadow: #fff8dc;
     font-weight: bold;
+} a:hover {
+        text-shadow: 1px 0px 10px rgba(205, 216, 215, 0.693);
+        font-weight: bolder;
 }
+
+.side-bar {
+    display: flex;
+    padding: 20px 5px;
+    background-color: #e5e7eb;
+    margin: 10% 0px 0px 98%;
+    border-radius: 50% 0px 0px 50%;
+    flex-direction: column;
+    position: fixed;
+    font-family: monospace;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border: 1px solid rgba( 255, 255, 255, 0.18 );    
+    text-align: initial;
+}
+.side-bar-item{
+    cursor: pointer;
+    margin: 10px;
+    position: relative;
+    font-family: serif;
+    
+}
+.side-bar:hover {
+    margin: 10% 0px 0px 91%;
+    color: black;
+    border-radius: 15% 0px 0px 15%;
+
+}
+.side-bar-item:hover{
+    transform: scale(1.12);
+    text-shadow: 1px 0px 10px rgba(255, 213, 150, 0.693);
+    font-weight: bolder;
+}
+
