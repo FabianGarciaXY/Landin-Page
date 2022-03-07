@@ -18,5 +18,8 @@
   "homepage": "https://github.com/FabianGarciaXY/Landin-Page#readme",
   "devDependencies": {
     "cypress": "^9.5.1"
+  },
+  "dependencies": {
+    "css.gg": "^2.0.0"
   }
 }

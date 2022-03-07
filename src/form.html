@@ -20,18 +20,18 @@
     <form action='#' method='POST'>
 
         <fielset>
-            <legend><pre> C o n t a c t   D e t a i l s </pre></legend>
+            <legend><pre> C o n t a c t   D e t a i l s </pre></legend><br><br>
 
-            <label for="name">*Name</label><br>
-            <input type="text" id="name" placeholder="Jhon Doe" name="name" required><br><br>
+            <label for="name">Name</label><br>
+            <input type="text" id="name" placeholder="Nombre" name="name" required><br><br>
 
-            <label for="email">*Email</label><br>
-            <input type="email" id="email" placeholder="example@gmail.com" name="email" required"><br><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" placeholder="example@email.com" name="email" required"><br><br>
 
             <label for="phone">Phone</label><br>
-            <input type="number" id="phone" placeholder="********" name="phone" min="1" pattern="(\d[1-10])"><br><br>
+            <input type="number" id="phone" placeholder="xxxxxxxxxx" name="phone" min="1" pattern="(\d[1-10])"><br><br>
 
-            <label for="pass">*Password</label><br>
+            <label for="pass">Password</label><br>
             <input type="password" id="pass" placeholder="********" name="pass" required><br><br>
 
             <label for="date">Date</label><br>
@@ -41,17 +41,26 @@
         </fielset>
 
         <fielset>
+        <!--
         <span>Select an color</span>
+
             <aside>
                 <select name="color">
                     <!-- Values to send to the server -->
+
+
+                <!--   
                     <option value="blue">Blue</option>
                     <option value="black">Black</option>
                     <option value="red">Red</option>
-                    <option value="green">green</option>
+                    <option value="green">green</option> 
+                
+
 
                 </select>
-            </aside><br><br>
+                
+            </aside><br><br> 
+        -->
 
         <!--Ratio buttons selection-->    
         <span>Payment</span><br>
@@ -69,7 +78,7 @@
             </textarea><br><br>
 
 
-            <button type="reset">Limpiar</button>
+            <button type="reset">Limpiar</button><span>
             <button type="submit">Confirm</button>
             </fielset>
             

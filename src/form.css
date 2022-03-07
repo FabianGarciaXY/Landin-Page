@@ -1,16 +1,12 @@
 
 body {
-    background-image: linear-gradient(to right, rgb(224, 186, 186), rgb(216, 204, 164));
-    margin: 0%;
+    background: linear-gradient(to top left, #3a6186, #faf9f9);  
     padding: 0%;
+    margin: 0;
     display: flex;
     flex-direction: column;
     font-size: 18px;
-    color: #e5e7eb;
-}
-
-.side-bar {
-    background-color: #f3f58c;
+    color: #fff8dc;
 }
 
 .top {
@@ -52,9 +48,11 @@ form {
     -webkit-backdrop-filter: blur( 11.5px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
-    
+    color: #292603;
     margin: 3% 20%;
     text-align: center;
+    padding: 50px;
+    font-size: 17px;
 }
 footer {
     background-color: #1f2937;
